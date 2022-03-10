@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ejemplo JQUERY Mobile</title>
+	<link rel="stylesheet" type="text/css" href="jquerymobile/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="jquerymobile/tema2.min.css" />
+	<link rel="stylesheet" type="text/css" href="jquerymobile/jquery.mobile.incons.min.css">
+	<script src="jquerymobile/jquery-1.11.1.min.js"></script>
+	<script src="jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+	<meta name="viewport" content="width=device-width, initialscale=1"></meter>
+	<style>
+		li{ background-color: orange; border: solid black; padding: 10px }
+	</style>
+</head>
+<body>
+	<div data-role="page" id="inicio" data-theme="a">
+		<div data-role="header">
+			<h1>Inicio</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Bienvenido</h2><hr>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 	when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 	into electronic typesetting, remaining essentially unchanged.
+			</p>
+			<img src="imagenes/tennis.jpg" alt="" width="70%">
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Botones</h2>
+			<a href="#" class="ui-btn">Anchor</a>
+			<button class="ui-btn">Button</button>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#inicio" data-icon="grid" class="ui-btn-active">Inicion</a></li>
+					<li><a href="#productos" data-icon="star">Productos</a></li>
+					<li><a href="#carrito" data-icon="gear">Carritos</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data.role="page" id="productos" data-theme="b">
+		<div data-role="header">
+			<h1>Productos</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Listado de productos</h2><hr>
+			<ul data-role="listview" data-inset="true">
+				<li>Nike Air Force 1 '07 LV8</li>
+				<li>Air Jordan XXXVI</li>
+				<li>Nike Air Max 90</li>
+				<li>Nike Air Max 90 SE</li>
+				<li>Nike Air Force 1 Luxe</li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#inicio" data-icon="grid">Inicion</a></li>
+					<li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a></li>
+					<li><a href="#carrito" data-icon="gear">Carrito</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data.role="page" id="carrito" data-theme="c">
+		<div data-role="header">
+			<h1>Carrito</h1>
+		</div>
+
+		<div class="ui-content" role="main">
+			<h2>Productos en carrito</h2>
+			<ul data-role="listview" data-inset="true">
+				<li>
+					<a href="#"><img src="Imagenes/tenis1.webp" alt=""><h2>Nike Air Force 1 '07 LV8</h2><p>$2,499 MX</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Imagenes/tenis2.webp" alt=""><h2>Air Jordan XXXVI</h2><p>$4,299 MX</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Imagenes/tenis3.webp" alt=""><h2>Nike Air Max 90</h2><p>$2,599 MX</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Imagenes/tenis4.webp" alt=""><h2>ike Air Max 90 SE</h2><p>$2,799 MX</p></a>
+				</li>
+				<li>
+					<a href="#"><img src="Imagenes/tenis5.webp" alt=""><h2>Nike Air Force 1 Luxe</h2><p>$2,899 MX</p></a>
+				</li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#inicio" data-icon="grid">Inicion</a></li>
+					<li><a href="#productos" data-icon="star">Productos</a></li>
+					<li><a href="#carrito" data-icon="gear" class="ui-btn-active">Carrito</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<footer style="color:red; text-align: center"><b>Alex Fernando Bojórquez Rojas</b></footer>
+</body>
+</html>
