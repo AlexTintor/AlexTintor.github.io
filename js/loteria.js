@@ -118,11 +118,11 @@ $(document).ready(function($) {
 			}
 
 			if(cont_1 == 16) {
-				alert("GANA CARTA 1");
+				alert("Se acabo el juego; 	GANA CARTA 1");
 			}
 
 			if(cont_2 == 16) {
-				alert("GANA CARTA 2");
+				alert("Se acabo el juego; 	GANA CARTA 2");
 			}
 		}
 		
