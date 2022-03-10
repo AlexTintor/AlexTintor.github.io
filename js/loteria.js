@@ -31,7 +31,7 @@ $(document).ready(function($) {
 				}
 
 				if(!exists){
-					$("#c1_"+i).attr("src", "imagenes/loteria/"+num+".jpg");
+					$("#c1_"+i).attr("src", "Imagenes/loteria/"+num+".jpg");
 					$("#c1_"+i).attr("carta", num);
 					b=false;
 					cartas.push(num);
@@ -58,7 +58,7 @@ $(document).ready(function($) {
 				}
 
 				if(!exists){
-					$("#c2_"+i).attr("src", "imagenes/loteria/"+num+".jpg");
+					$("#c2_"+i).attr("src", "Imagenes/loteria/"+num+".jpg");
 					$("#c2_"+i).attr("carta", num);
 					b=false;
 					cartas2.push(num);
@@ -86,7 +86,7 @@ $(document).ready(function($) {
 		
 		if(c < 54){
 			$("#lista").append(
-				"<div class='col-1'><img class='img-fluid' src='imagenes/loteria/"+baraja[c]+".jpg'></div>"
+				"<div class='col-1'><img class='img-fluid' src='Imagenes/loteria/"+baraja[c]+".jpg'></div>"
 			);
 
 			for (let index = 1; index <=16; index++) {
